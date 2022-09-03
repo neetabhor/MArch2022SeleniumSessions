@@ -1,0 +1,17 @@
+testNG /junit : java unit test framework
+UTs : dev
+ATs :QA
+
+Nunit : .net
+phpUnit : php
+Jasmine mocha : JS
+pytest : python
+ 
+TestCase format
+Global pre conditions  : @Before Annotations
+	(setup)pre conditions : @Before Annotations
+	   test steps :@Test
+		act vs exp -> Assertions
+		   pass/fail -> statuc
+	(teardown)post actions -> @After Annotations
+			
